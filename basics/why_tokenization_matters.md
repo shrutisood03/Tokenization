@@ -38,12 +38,10 @@ This means:
 - Small textual changes can lead to different token sequences and different outputs  
 
 **Example:**
-
+```
 "secure system"
 "secure-system"
-
-markdown
-Copy code
+```
 
 Although similar in meaning, these inputs may tokenize differently, leading to changes in how the model interprets them.
 

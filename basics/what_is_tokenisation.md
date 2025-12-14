@@ -21,10 +21,10 @@ Token boundaries are determined by the tokenizer, not by grammatical rules.
 ---
 
 ## Basic Example
-
+```
 Input Text: "Tokenization is important"
 Tokens: ["Token", "ization", " is", " important"]
-
+```
 
 This illustrates that:
 
@@ -37,12 +37,9 @@ This illustrates that:
 ## Role of Tokenization in LLMs
 
 Tokenization is the first step in the LLM processing pipeline.
-
+```
 Text → Tokens → Token IDs → Embeddings → Transformer Model
-
-yaml
-Copy code
-
+```
 After tokenization:
 
 - The original text is no longer visible to the model
@@ -80,4 +77,4 @@ Subword-level tokenization is often implemented using methods such as:
 ## Summary
 
 Tokenization defines how text is segmented and represented before being processed by an LLM.  
-The choice of tokenization strategy directly influences vocabulary size, input length, and
+The choice of tokenization strategy directly influences vocabulary size, input length, and model behavior.
